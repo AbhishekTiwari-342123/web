@@ -2,21 +2,19 @@
 <head>
 <title>clone</title>
 <style>
-    body{max-width:100%;overflow-x: hidden;}
+    body{max-width:100%;padding:0;margin:0;overflow-x: hidden;}
     .bigmg{
             background-image:url("http://wallpapers-and-backgrounds.net/wp-content/uploads/2016/01/god-of-war-full-hd-background_1_1440x900.jpg");
-           }
-
-    .bigmg{
             position: relative;
             background-attachment:fixed;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover;
-            }
-    p{
-        color:white;
-    }
+            background-size: cover;}
+    
+    input{width:250px;height:25px;}
+    
+     p{color:white;}
+    
     .head2 button{
             color:#3BB9FF;
             position:relative;
@@ -33,13 +31,18 @@
             letter-spacing:; 
             font-weight:bolder;
             text-shadow:0.4px 0.4px 0px  aqua; 
-            font-size:12px;   
-    }
+            font-size:12px;}
+    
     button:hover{
             color:white;
             border-color:black;
-            box-shadow:0px 0.4px gray;     
-    }
+            box-shadow:0px 0.4px gray;}
+    
+    .a:hover {
+	    background-color: black;
+        opacity: 0.8;
+        border-color:blue;}
+    
     #head3{
             background:linear-gradient(180deg ,#3BB9FF 0%,blue 95%);
             color:white;
@@ -52,35 +55,36 @@
             padding-left:30px;
             line-height:10px;
             height:20px;
-            margin-top:20px;
-    }
+            margin-top:20px;}
+    
     #head3:hover{
             text-decoration: underline;
             text-underline-position: alphabetic;
-            background:linear-gradient(0deg,  #3BB9FF 0%,blue 95%);
-    }
+            background:linear-gradient(0deg,  #3BB9FF 0%,blue 95%);}
+    
      .line3{
             position:relative;
             left:110px;
             margin:0px auto;
-            display:inline;    
-    }
+            display:inline;}
+    
     .images .a{
             border:8px solid aqua;
             border-radius:8px;
-            margin: 50px 10px 10px 0px;
-    }
+            margin: 50px 10px 10px 0px;}
+    
     .line4 .a{
             position:relative;
             top:5px;
             left:110px;
-            margin: 50px 10px -30px 0px; 
-    }
+            margin: 50px 10px -30px 0px;}
+    
     .end{
             position:relative;
-            left:1100px;
-            margin:20px auto;
-    }
+            left:590px;
+            bottom:20px;
+            margin:20px auto;}
+    
     #next{
             background-color:#87cefa;
             padding:8px;
@@ -88,19 +92,20 @@
             color:#00b2ee;
             font-family:sans-serif;
             letter-spacing:2;
-            width:80px;
-    }
+            width:80px;}
+    
     #next:hover{
             background-color:#527080;
             font-weight:bolder;
             color:aquamarine;
             background:#527080;
             padding:8px;
-            width:80px;
-    }
+            width:80px;}
+    
    .bh{position:relative; left:800px;font-family:cursive;}
    .bh button{position:relative;background:#3BB9FF;color:white;left:10px;margin-left:-10px;}
-    ::-webkit-input-placeholder{color:grey;font-style:italic;}  
+   ::-webkit-input-placeholder{color:grey;font-style:italic;}  
+
 </style>    
 </head>
 <body>
@@ -129,7 +134,7 @@
             <button>Join  us !</button>         
             </ul>  
             <div class=bh>
-                <form><input type="text" name="fname" placeholder="Search Here"><button>Go</button></form>
+                <form method="get" action="https://www.google.com/search"><input type="text" name="q" placeholder="Search Here" target="_blank"><button>Go</button></form>
             </div>    
         </div>
         <center><button id="head3"><h2><strong>New Games | RG Mechanics Games</strong></h2></button></center>        
@@ -209,7 +214,7 @@
         </div>
   <br><br><br>
     <div class="end">
-        <h3 id="next"><center> NEXT </center> </h3>
+        <h3 id="next"><center> <a style="text-decoration:none"href="mailto:sidhusahoo9040@gmail.com?Subject=Hello" target="_blank"> Contact Us </a></center> </h3>
     </div>
 </div>
 </body>
