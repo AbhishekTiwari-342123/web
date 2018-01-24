@@ -1,3 +1,2 @@
-This is my first project guys. Had already worked on, a lot of things but never uploaded on GIT.
-I have designed a clone of the gaming site, RG-MECHANICS with help of HTML5 and CSS.
-A lot has to come....
+Just  tried to clone the gaming site, RG-MECHANICS with help of HTML5 and CSS.
+
